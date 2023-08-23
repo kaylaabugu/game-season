@@ -1,0 +1,83 @@
+body{
+    background-color: aqua;
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.boxContainer{
+    color: black;
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    align-items: center;
+    min-height: 100px;
+    min-width: 100px;
+    background-color: #eee000;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size:cover ;
+
+}
+.heading{
+color: black;
+background-color: #eee000;
+background-position: center;
+background-size: cover;
+font-size: 44px;
+min-width: 100px;
+margin: 10px;
+padding: 10px;
+text-align: center;
+font-style: italic;
+font-family: cursive;
+}
+
+#display{
+    min-width: 300px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    font-family: cursive;
+    font-weight: light;
+    font-style: italic;
+
+}
+
+.row{
+    display:flex ;
+}
+
+#controlButton{
+    width: 199px;
+    height: 55px;
+    margin: 30px 10px 10px;
+    padding: 13px;
+    min-width: 30px;
+    min-height: 30px;
+    border: 0px;
+    border-radius: 5px;
+    background-color: #eee;
+    color: black;
+    text-align:center;
+    font-weight: bolder;
+    font-style:italic;
+    font-family: cursive;
+    font-size: x-large;
+}
+
+.box{
+    height: 130px;
+    width: 130px;
+    margin: 1px;
+    color: rgb(177, 226, 43);
+    border: 0px;
+    font-size: 50px;
+    font-weight: bolder;
+    background-color: black;
+}
+
+
